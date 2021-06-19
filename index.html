@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:site_name" content="Kyle Oh">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kyle Oh">
+    <meta property="og:description" content="Aspiring software engineer who enables users to work on complex, data-driven real-world problems">
+    <meta property="og:url" content="https://kyleinseok.com">
+    
+    <link rel="icon" type="x-icon" href="images/favicon.ico">
+    <title>Kyle Oh</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <!--Background Image-->
+    <style type="text/css">
+            body {
+                background-image: url('images/gangreung.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center;
+            }
+    </style>
+
+</head>
+
+<body>
+    <!--Website Navigation Menu-->
+    <nav class="navbar">
+         <!--Hamburger Menu-->
+        <div class="navbar__toggle" id="navbar__toggle" onclick="crossX(this)">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </div>
+        <!-- Vertical Menu Dropdown (hidden by default)-->
+        <div class="navbar__menu" id="navbar__menu" onclick="showMenu(this)">
+            <u1>
+                <li><a href="index.html" class="home">Home.</a></li>
+                <li><a href="./html/about.html" class="about">About.</a></li>
+                <li><a href="./html/project.html" class="projects">Projects.</a></li>
+                <li><a href="./html/contact.html" class="contact">Contact.</a></li>
+            </u1>
+        </div>
+    </nav>
+
+    <!-- Home. Section-->
+    <div class="main__container">
+        <p>
+            My name is Kyle. I'm a CS student at the <b><a href="https://web.cs.toronto.edu/" class="uft" target="_blank" >University of Toronto</a></b>.
+        </p>
+        <p>
+            Currently, SWE @<b><a href="https://www.decisionneurolab.com/" target="_blank" class="dnl">DNL</a></b>. Previously, Summer Associate @<a href="https://www.bcg.com/en-ca/" class="bcg" target="_blank"><b>BCG</b></a> and 
+            @<a href="https://home.kpmg/ca/en/home/insights/2021/05/we-are-committed.html" class="kpmg" target="_blank"><b>KPMG</b></a>.
+        </p>
+    </div>
+
+    <script src="toggle.js"></script>
+</body>
+</html>
